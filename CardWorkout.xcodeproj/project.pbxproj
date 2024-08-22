@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AFBCA7042C764DBE008BA124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBCA7032C764DBE008BA124 /* AppDelegate.swift */; };
 		AFBCA7062C764DBE008BA124 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBCA7052C764DBE008BA124 /* SceneDelegate.swift */; };
-		AFBCA7082C764DBE008BA124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBCA7072C764DBE008BA124 /* ViewController.swift */; };
 		AFBCA70B2C764DBE008BA124 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFBCA70A2C764DBE008BA124 /* Base */; };
 		AFBCA70D2C764DBF008BA124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBCA70C2C764DBF008BA124 /* Assets.xcassets */; };
 		AFBCA7102C764DBF008BA124 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFBCA70F2C764DBF008BA124 /* Base */; };
+		AFBCA7182C764DD7008BA124 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBCA7172C764DD7008BA124 /* CardSelectionVC.swift */; };
+		AFBEDDB12C77A11E008D4A62 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBEDDB02C77A11E008D4A62 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFBCA7002C764DBE008BA124 /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBCA7032C764DBE008BA124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFBCA7052C764DBE008BA124 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AFBCA7072C764DBE008BA124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFBCA70A2C764DBE008BA124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFBCA70C2C764DBF008BA124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFBCA70F2C764DBF008BA124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFBCA7112C764DBF008BA124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBCA7172C764DD7008BA124 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		AFBEDDB02C77A11E008D4A62 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				AFBCA7032C764DBE008BA124 /* AppDelegate.swift */,
 				AFBCA7052C764DBE008BA124 /* SceneDelegate.swift */,
-				AFBCA7072C764DBE008BA124 /* ViewController.swift */,
+				AFBCA7172C764DD7008BA124 /* CardSelectionVC.swift */,
 				AFBCA7092C764DBE008BA124 /* Main.storyboard */,
 				AFBCA70C2C764DBF008BA124 /* Assets.xcassets */,
 				AFBCA70E2C764DBF008BA124 /* LaunchScreen.storyboard */,
 				AFBCA7112C764DBF008BA124 /* Info.plist */,
+				AFBEDDB02C77A11E008D4A62 /* Deck.swift */,
 			);
 			path = CardWorkout;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFBCA7082C764DBE008BA124 /* ViewController.swift in Sources */,
 				AFBCA7042C764DBE008BA124 /* AppDelegate.swift in Sources */,
 				AFBCA7062C764DBE008BA124 /* SceneDelegate.swift in Sources */,
+				AFBCA7182C764DD7008BA124 /* CardSelectionVC.swift in Sources */,
+				AFBEDDB12C77A11E008D4A62 /* Deck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
