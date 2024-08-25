@@ -55,6 +55,7 @@ class CardSelectionVC: UIViewController {
     @IBAction func restartButtonTapped(_ sender: UIButton) {
         timer.invalidate();
         startTimer();
+        
     }
     
 }

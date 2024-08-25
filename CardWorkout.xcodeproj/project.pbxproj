@@ -61,11 +61,11 @@
 				AFBCA7032C764DBE008BA124 /* AppDelegate.swift */,
 				AFBCA7052C764DBE008BA124 /* SceneDelegate.swift */,
 				AFBCA7172C764DD7008BA124 /* CardSelectionVC.swift */,
+				AFBEDDB02C77A11E008D4A62 /* Deck.swift */,
 				AFBCA7092C764DBE008BA124 /* Main.storyboard */,
 				AFBCA70C2C764DBF008BA124 /* Assets.xcassets */,
 				AFBCA70E2C764DBF008BA124 /* LaunchScreen.storyboard */,
 				AFBCA7112C764DBF008BA124 /* Info.plist */,
-				AFBEDDB02C77A11E008D4A62 /* Deck.swift */,
 			);
 			path = CardWorkout;
 			sourceTree = "<group>";
